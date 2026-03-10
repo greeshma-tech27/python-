@@ -1,0 +1,9 @@
+word = "Programming"
+print(word[2:7])
+
+print(word[:4])
+
+print(word[5:])
+
+print(word[-3:-7])
+
