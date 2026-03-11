@@ -1,0 +1,19 @@
+message = 'Good morning\n \tHave a nice day!'
+name = 'greeshma'
+text = 'NAVYA'
+sentence = "myself suma"
+sample = "I like java"
+choice = "him her her none none her her him"
+
+print(message)
+print(name.upper())
+print(text.lower())
+print(sentence.title())
+print(sentence.capitalize())
+print(sample.replace("java", "python"))
+print(message.find("nice"))
+print(choice.count("her"))
+
+
+
+
