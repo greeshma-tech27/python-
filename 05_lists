@@ -14,7 +14,6 @@ l1.remove(45)
 print(l1)
 
 l2 = [3, 5, 78, 45, 2, 88, 35]
-
 l2.sort()
 print(l2)
 l2.reverse()
