@@ -1,0 +1,14 @@
+#lists can store values of any data type
+
+l1 = ["name",45,'v',67.78,True]
+
+print(l1[3])
+print(l1[1:4])
+l1.append("rohan")
+print(l1)
+l1.insert(8,4)
+print(l1)
+l1.pop(2)
+print(l1)
+l1.remove(45)
+print(l1)
