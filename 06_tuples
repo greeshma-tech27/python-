@@ -1,0 +1,9 @@
+#tuples are immutable data types
+a = ()
+b = (1,)
+c = ("for",5,"her",34.6,False)
+d = (4, 5, 4, 82, 0)
+
+x = d.count(4)
+print(x)
+
