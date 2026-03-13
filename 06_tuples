@@ -1,9 +1,18 @@
-#tuples are immutable data types
+# A tuple is an immutable data type (its values cannot be changed after creation)
+
+# Empty tuple
 a = ()
+
+# Tuple with one element (comma is required)
 b = (1,)
-c = ("for",5,"her",34.6,False)
+
+# Tuple with different data types
+c = ("for", 5, "her", 34.6, False)
+
+# Tuple with repeated values
 d = (4, 5, 4, 82, 0)
 
+# count() method returns the number of times a value appears in the tuple
 x = d.count(4)
-print(x)
 
+print("Number of times 4 appears in tuple d:", x)
