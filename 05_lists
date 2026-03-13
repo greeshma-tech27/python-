@@ -1,21 +1,33 @@
-#lists can store values of any data type
+# Lists can store multiple values and can contain different data types
 
-l1 = ["name",45,'v',67.78,True]
+# Creating a list with different data types
+l1 = ["name", 45, 'v', 67.78, True]
 
-print(l1[3])
-print(l1[1:4])
-l1.append("rohan")
-print(l1)
-l1.insert(8,4)
-print(l1)
-l1.pop(2)
-print(l1)
-l1.remove(45)
-print(l1)
+# Accessing elements
+print("Element at index 3:", l1[3])        # Access single element
+print("Elements from index 1 to 3:", l1[1:4])  # List slicing
 
+# Adding elements
+l1.append("rohan")   # Adds element at the end
+print("After append:", l1)
+
+l1.insert(8, 4)      # Inserts element at a specific position
+print("After insert:", l1)
+
+# Removing elements
+l1.pop(2)            # Removes element at index 2
+print("After pop:", l1)
+
+l1.remove(45)        # Removes specific value
+print("After remove:", l1)
+
+# Another list for sorting operations
 l2 = [3, 5, 78, 45, 2, 88, 35]
-l2.sort()
-print(l2)
-l2.reverse()
-print(l2)
 
+# Sorting the list
+l2.sort()
+print("Sorted list:", l2)
+
+# Reversing the list
+l2.reverse()
+print("Reversed list:", l2)
