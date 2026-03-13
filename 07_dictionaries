@@ -1,0 +1,30 @@
+# Dictionaries in Python
+
+# Creating a dictionary
+student = {
+    "name": "Greeshma",
+    "age": 16,
+    "course": "Engineering",
+    "is_student": True
+}
+
+# Accessing values
+print(student["name"])
+print(student["age"])
+
+# Adding a new key-value pair
+student["city"] = "Bangalore"
+print(student)
+
+# Updating a value
+student["age"] = 17
+print(student)
+
+# Removing an element
+student.pop("course")
+print(student)
+
+# Dictionary methods
+print(student.keys())      # shows all keys
+print(student.values())    # shows all values
+print(student.items())     # shows key-value pairs
