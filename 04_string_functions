@@ -1,19 +1,33 @@
-message = 'Good morning\n \tHave a nice day!'
-name = 'greeshma'
-text = 'NAVYA'
+# Python String Functions Example
+
+message = "Good morning\n\tHave a nice day!"
+name = "greeshma"
+text = "NAVYA"
 sentence = "myself suma"
 sample = "I like java"
 choice = "him her her none none her her him"
 
+# Printing the message with newline and tab
+print("Message:")
 print(message)
-print(name.upper())
-print(text.lower())
-print(sentence.title())
-print(sentence.capitalize())
-print(sample.replace("java", "python"))
-print(message.find("nice"))
-print(choice.count("her"))
 
+# Convert name to uppercase
+print("\nUppercase name:", name.upper())
 
+# Convert text to lowercase
+print("Lowercase text:", text.lower())
 
+# Title case
+print("Title case sentence:", sentence.title())
 
+# Capitalize first letter
+print("Capitalized sentence:", sentence.capitalize())
+
+# Replace word in string
+print("Replace word:", sample.replace("java", "python"))
+
+# Find position of word
+print("Index of 'nice':", message.find("nice"))
+
+# Count occurrences of a word
+print("Count of 'her':", choice.count("her"))
