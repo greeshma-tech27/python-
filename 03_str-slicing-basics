@@ -1,9 +1,15 @@
+# Sample string
 word = "Programming"
-print(word[2:7])
 
-print(word[:4])
+# Slice characters from index 2 to 6
+print("1. Characters from index 2 to 6:", word[2:7])
 
-print(word[5:])
+# Slice from beginning to index 3
+print("2. First four characters:", word[:4])
 
-print(word[-3:-7])
+# Slice from index 5 to the end
+print("3. Characters from index 5 to end:", word[5:])
+
+# Negative slicing
+print("4. Negative slicing example:", word[-7:-3])
 
