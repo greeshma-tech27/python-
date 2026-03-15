@@ -28,3 +28,6 @@ print(student)
 print(student.keys())      # shows all keys
 print(student.values())    # shows all values
 print(student.items())     # shows key-value pairs
+
+#calling a empty dictionary 
+a = {}
