@@ -1,0 +1,27 @@
+#Calling out empty set
+s = set()
+
+s = {2, 4, 76, 4, 6, 4, 55}
+
+#add an element to set
+s.add(7)
+print(s)
+
+#find length of set
+len(s)
+print(s)
+
+#Add elements to set
+s.union({35, 57})
+print(s)
+
+s.pop()
+print(s)
+
+#Remove an element from set
+s.remove(76)
+print(s)
+
+#Clears entire set
+s.clear()
+print(s)
