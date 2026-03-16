@@ -1,0 +1,40 @@
+#Data Types and Operators
+
+# Data Types
+a = 10          # int
+b = 5.5         # float
+c = "Hello"     # string
+d = True        # boolean
+
+print("Data Types:")
+print(type(a))
+print(type(b))
+print(type(c))
+print(type(d))
+
+# Arithmetic Operators
+x = 10
+y = 3
+
+print("\nArithmetic Operators:")
+print("Addition:", x + y)
+print("Subtraction:", x - y)
+print("Multiplication:", x * y)
+print("Division:", x / y)
+print("Modulus:", x % y)
+
+# Comparison Operators
+print("\nComparison Operators:")
+print(x > y)
+print(x < y)
+print(x == y)
+print(x != y)
+
+# Logical Operators
+p = True
+q = False
+
+print("\nLogical Operators:")
+print(p and q)
+print(p or q)
+print(not p)
